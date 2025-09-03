@@ -1,0 +1,45 @@
+:root {
+    --background-color: #edf6f8;
+    --light-color: #ffffff;
+    --dark-color: #000000;
+    --link-color: #cb67a4;
+
+}
+
+body {
+       font-family: "Onest", sans-serif;
+
+}
+
+main {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+}
+
+.post {
+    border: 1px solid var(--dark-color);
+    margin-bottom: 1em;
+    padding: .5em 1em;
+}
+
+.post a {
+    color: var(--link-color);
+    background-color: var(--background-color);
+    text-decoration: none;
+}
